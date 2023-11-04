@@ -62,4 +62,4 @@ Program will work well with files. You can use these options for general use:
 ## Informations
 
 - If your encryption does not being solved by correct key and other constants, try increasing your ```HASH_BYTE``` on encrypting. Unique letters can get same HASHES if you are deacreasing HASH_BYTE.
-- In decryption side if the program just stops, key may not be correct.
+- In decryption side if the program just waits for a time, key may not be correct.
