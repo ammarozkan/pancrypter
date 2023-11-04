@@ -44,6 +44,7 @@ XK.Pan-B is a good name. X specifies a number that generaten from constants of t
 section.)
 
 X = ((LEC x EFFECT_COUNT x HASH_BYTE) / (EFFECT_CONST * 1000))'s "before comma" side.
+
 B represents the bytes of hashed bytes. HASH_BYTE.
 
 133K.Pan-4 encryption is made by the default constants on the code.
