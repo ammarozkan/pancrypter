@@ -58,3 +58,8 @@ Program will work well with files. You can use these options for general use:
 - "--maxtype [maximum amount of type] :  You can define maximum amount of type that will be used in encryption on will control on decryption. If something encrypted with 20 types, decryption should be use 20 types. Greater value, greater decryption time. (default 3)
 - "--input [input file destionation]" : You should set a input file that will be encrypted or decrypted.
 - "--output [output file destination]" : You should set a output file too. Encrypted or decrypted file will be this file. I generally put ".enc" filename extension to encrypted files.
+
+## Informations
+
+- If your encryption does not being solved by correct key and other constants, try increasing your ```HASH_BYTE``` on encrypting. Unique letters can get same HASHES if you are deacreasing HASH_BYTE.
+- In decryption side if the program just stops, key may not be correct.
