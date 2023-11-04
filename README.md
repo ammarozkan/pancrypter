@@ -50,6 +50,8 @@ B represents the bytes of hashed bytes. HASH_BYTE.
 133K.Pan-4 encryption is made by the default constants on the code.
 
 ## If Just Compiled From main.c and Didn't Customized...
+You don't need anything else except GCC, ```stdio.h``` and ```stdlib.h``` while compiling it. GCC should provide ```stdio.h```, ```stdlib.h``` libraries.
+
 Program will work well with files. You can use these options for general use:
 - "--command [enc/dec]": You can choose whether you encrypt or decrypt a file.
 - "--key [yourkeyforusingwithencryption]/": You can customise your key for encryption or decrypt a file with a key. **END OF THE KEY SHALL BE "/"** If you want something default, change the source code that is default. You can find this at start of the ```main.c```'s ```int main()``` function. ```char* key = "key/"``` And forgetting the "/" to put the end will be astonishing.
