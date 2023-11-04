@@ -1,4 +1,4 @@
-# Pancrypter
+# Pancrypter - 133K-Pan.4
 ## Abstract
 An file encryption library/program that written with C, and only standart libraries that can be provided from GCC. Contains a hashing-like algorithm in bytehasher.h.
 **If you dont want to get confused with details, then you can go to the "If Just Compiled From main.c and Didn't Customized" part.**
